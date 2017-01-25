@@ -43,9 +43,5 @@ To publish your chart:
 1. Go to *File > Save to Tableau Public As...* and save the file under the name you'd like. This may require you to sign in with your Tableau Public account.
 1. This will open a web browser window to your chart on the Tableau website. At the bottom, you'll see a *Share* button that will give you shareable links and a code to embed the chart into your own blog post.
 
-
-
-
-
-
-
+-----
+###Return to [LEADR's Resources list](https://github.com/leadr-msu/Resources)
