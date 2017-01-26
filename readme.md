@@ -1,4 +1,5 @@
 #Visualizing Public Data
+Prepared by Brandon Locke
 
 ##In Class
 ###Finding and Evaluating Data
