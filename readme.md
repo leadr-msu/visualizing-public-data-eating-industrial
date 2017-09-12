@@ -1,22 +1,23 @@
-# Visualizing Slave Voyages Data
-Prepared by Brandon Locke & Dan Fandino
+# Visualizing Public Data
+Prepared by Brandon Locke
 
 ## In Class
 ### Finding and Evaluating Data
-The Trans-Atlantic Slave Trade Database [slavevoyages.org](http://slavevoyages.org) is a database of almost 36,000 slaving voyages to the Americas from between 1515 and 1866. It is not a complete database, but it represents a significant portion of them (for reference, the database includes information on almost 10 million enslaved people, while it is estimated that as many as 12 million were transported to the Americas). The project is the result of a decades-long collaboration between scholars around the Atlantic world.
+There are datasets available all over the web, especially from governmental departments, non-profits, and similar organizations. Since we're interested in food, the US Department of Agriculture (USDA) is a good place to start. They have a [Food Availability (Per Capita) Data System](http://www.ers.usda.gov/data-products/food-availability-per-capita-data-system/), with some data that will help us look at the changing American diet.
 
-For today, we have extracted the roughly 1000 slave voyages in the database that stopped in East Africa or the Indian Ocean at some point.
+1. Go to the [USDA Food Availability (Per Capita) Data System](http://www.ers.usda.gov/data-products/food-availability-per-capita-data-system/) website.
+2. Scroll down to **Loss-Adjusted Food Availability** section - this is near the bottom of the page.
+3. Select your assigned food category to download an Excel file of the data.
+4. Open the file and take a minute or two to browse and get a sense of what's included.
 
-Download the data from [fill this in]. Open the .csv file and examine the data.
+Each Excel file should have a *TableOfContents* sheet with links to sheets that have a specific type or subgroup of food in detail.
 
 * **What questions can you ask of this data?**
-* **How might you visualize this information to discover or illustrate patterns?**
-
-- - - all of this below needs to be edited for the slave voyages dataset - - -
+* **How might you visualize this information to discover or illustrate trends?**
 
 ### Preparing the data for Tableau
 1. After looking at the dataset, select at least 7 sheets that you think would be interesting to examine.
-1. Create a new Excel workbook, add in the column headers 'year', 'lbs per year', and 'product' in A1 through C1.
+1. Create a new Excel workbook, add in the column headers 'year', 'lbs per year', and 'product' in A1 through C1. 
 1. Select a sheet you want to examine and copy the years (Column A) and the Lbs/year per capital availability adjusted for loss (Column J). Skip the top rows with headers, and just copy the data. **Tip:** *Click and drag for the first column, and then hold ctrl (on a PC) or command (on a Mac) and click and drag for the second. This will select both columns for you to copy.*
 1. Paste these into your new workbook below the headers. They should fill column A (year) and B (lbs per year). Type the name of the product in the third column and drag down through the end of the data.
 2. If your data has any *n/a* fields, make sure you delete them and leave the field empty. If there are letters, Tableau will read the data as *dimensions* and not *measures*.
@@ -36,7 +37,7 @@ Download the data from [fill this in]. Open the .csv file and examine the data.
 Take a moment and chat with your partner:
 What are you able to see from your chart? Did it look about the way you expected? Were there any surprises?
 
-What do the changes you see tell you about industrialized food?
+What do the changes you see tell you about industrialized food? 
 
 To publish your chart:
 
